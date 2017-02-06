@@ -1,0 +1,14 @@
+group 'com.insanedev'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.8'
+    compile "io.projectreactor:reactor-core:3.0.3.RELEASE"
+    testCompile 'org.spockframework:spock-core:1.1-groovy-2.4-rc-3'
+}
